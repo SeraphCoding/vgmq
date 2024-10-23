@@ -1,11 +1,16 @@
 {
   "name": "vgmq",
   "version": "0.25.0",
+  "bugs": "https://github.com/littlegubs/vgmq/issues",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "lint": "eslint src/**/*.ts --fix & prettier --write \"src/**/*.ts\""
+  },
+  "engines": {
+    "node": "^18.19.1 || ^20.11.1",
+    "npm": "Please use yarn instead of NPM to install dependencies - if you have node installed run 'corepack enable' and then 'yarn set version berry'"
   },
   "private": true,
   "dependencies": {
@@ -61,7 +66,7 @@
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "2.26.0",
-    "eslint-plugin-jsdoc": "39.3.6",
+    "eslint-plugin-jsdoc": "50.4.3",
     "eslint-plugin-prefer-arrow": "1.2.3",
     "eslint-plugin-prettier": "^3.4.1",
     "eslint-plugin-unused-imports": "^3.0.0",
@@ -69,5 +74,6 @@
     "prettier": "^2.7.1",
     "tailwindcss": "^3.4.3",
     "typescript": "~5.3.3"
-  }
+  },
+  "packageManager": "yarn@4.5.1"
 }
